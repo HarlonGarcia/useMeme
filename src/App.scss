@@ -1,0 +1,13 @@
+$primary-color: #158F8C;
+$secondary-color: #48D9CA;
+$dark-color: #1B323D;
+$text-color: #ABFEF6;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $dark-color;
+  font-family: 'Acme', sans-serif;
+}

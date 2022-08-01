@@ -1,0 +1,14 @@
+@use "../../App.scss" as style;
+
+.footer {
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+  height: 30px;
+  bottom: 0;
+  
+  background-color: style.$secondary-color;
+}

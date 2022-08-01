@@ -1,0 +1,40 @@
+@use "../../App.scss" as style;
+
+.meme {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: style.$primary-color;
+  border-radius: 1rem;
+  font-size: 1.25rem;
+
+  min-width: 12rem;
+  height: 240px;
+  padding: 1.5rem;
+  margin: 40px;
+
+  h2 {
+    color: style.$text-color;
+  }
+
+  button {
+    width: 50px;
+    height: 50px;
+    
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    transition: all .5s ease-in;
+
+    background: style.$primary-color;
+    box-shadow:  10px 10px 20px #127a77,
+    -10px -10px 20px #18a4a1;
+    
+    &:hover {
+      box-shadow:  10px 10px 20px #18a4a1dd,
+      -10px -10px 20px #127a77dd;
+    }
+  }
+}
