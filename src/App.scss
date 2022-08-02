@@ -1,13 +1,28 @@
-$primary-color: #158F8C;
-$secondary-color: #48D9CA;
-$dark-color: #1B323D;
-$text-color: #ABFEF6;
+$primary-color: #EE1C29;
+$secondary-color: #F4AD13;
+$dark-color: #0D0D0D;
+$light-color: #F2F2F4;
 
 * {
   box-sizing: border-box;
+  scrollbar-width: auto;
+  scrollbar-color: #ffc547 $secondary-color;
 }
 
 body {
   background-color: $dark-color;
   font-family: 'Acme', sans-serif;
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 4px;
+}
+
+*::-webkit-scrollbar-track {
+  background: $secondary-color;
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: $primary-color;
 }

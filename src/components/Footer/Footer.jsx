@@ -5,7 +5,9 @@ import './Footer.scss';
 const Footer = () => {
   return (
     <div className='footer'>
-        <h3>Developed by Harlon | <FaGithubAlt /></h3>
+        <h3>Developed by <a href='https://github.com/HarlonGarcia'>Harlon</a></h3>
+        &nbsp;&nbsp;|&nbsp;&nbsp;
+        <FaGithubAlt />
     </div>
   )
 }

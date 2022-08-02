@@ -1,16 +1,18 @@
 import React from 'react';
-import { CgLoadbarSound } from 'react-icons/cg';
+import { BsSoundwave } from 'react-icons/bs';
 import './Meme.scss';
 
 const Meme = ({title, audio}) => {
-  const handleClick = () => {
-    console.log('Esse é o meme');
+
+  const handleAudio = () => {
+    audio.currentTime = 0
+    audio.play();
   }
   
   return (
     <article className='meme'>
         <h2>{title}</h2>
-        <button onClick={handleClick}><CgLoadbarSound size={'2em'} color={'#ABFEF6'}/></button>
+        <button onClick={handleAudio}><BsSoundwave size={'2em'} color={'#ABFEF6'}/></button>
     </article>
   )
 }

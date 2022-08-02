@@ -1,10 +1,12 @@
 import Footer from "./components/Footer/Footer";
 import Memes from "./components/Memes/Memes";
-import './App.scss'
+import Header from "./components/Header/Header"
+import "./App.scss"
 
 const App = () => {
   return (
     <>
+      <Header />
       <Memes />
       <Footer />
     </>

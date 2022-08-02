@@ -7,16 +7,17 @@
   align-items: center;
 
   background-color: style.$primary-color;
-  border-radius: 1rem;
+  border-radius: .625rem;
   font-size: 1.25rem;
 
   min-width: 12rem;
-  height: 240px;
+  height: 150px;
   padding: 1.5rem;
-  margin: 40px;
+  margin: 0 30px;
+  margin-bottom: 40px;
 
   h2 {
-    color: style.$text-color;
+    color: style.$light-color;
   }
 
   button {
@@ -29,12 +30,13 @@
     transition: all .5s ease-in;
 
     background: style.$primary-color;
-    box-shadow:  10px 10px 20px #127a77,
-    -10px -10px 20px #18a4a1;
+    background: linear-gradient(145deg, #d61925, #ff1e2c);
+    box-shadow:  13px 13px 26px #c11721,
+             -13px -13px 26px #ff2131;
     
     &:hover {
-      box-shadow:  10px 10px 20px #18a4a1dd,
-      -10px -10px 20px #127a77dd;
+      box-shadow:  13px 13px 26px #ff2131,
+             -13px -13px 26px #c11721;
     }
   }
 }

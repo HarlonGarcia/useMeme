@@ -1,0 +1,50 @@
+[{
+    "title": "Ai que diliça",
+    "audio": "src/assets/audios/ai-que-delicia.mp3"
+}, {
+    "title": "Bahia",
+    "audio": "src/assets/audios/bahia.mp3"
+}, {
+    "title": "Bem-te-vi",
+    "audio": "src/assets/audios/bem-te-vi.mp3"
+}, {
+    "title": "Berrante",
+    "audio": "src/assets/audios/berrante.mp3"
+}, {
+    "title": "Cafezinho",
+    "audio": "src/assets/audios/cafezinho.mp3"
+}, {
+    "title": "Cavalo",
+    "audio": "src/assets/audios/cavalo.mp3"
+}, {
+    "title": "Discord Join",
+    "audio": "src/assets/audios/discord.mp3"
+}, {
+    "title": "Discord Leave",
+    "audio": "src/assets/audios/discord-leave.mp3"
+}, {
+    "title": "Fogos de artifício",
+    "audio": "src/assets/audios/fogos.mp3"
+}, {
+    "title": "Magia do replay",
+    "audio": "src/assets/audios/replay.mp3"
+}, {
+    "title": "Morri",
+    "audio": "src/assets/audios/morri.mp3"
+}, {
+    "title": "Nhaaan",
+    "audio": "src/assets/audios/nhan.mp3"
+}, {
+    "title": "Rapaaaaz",
+    "audio": "src/assets/audios/rapaz.mp3"
+}, {
+    "title": "Spike planted",
+    "audio": "src/assets/audios/spike-planted.mp3"
+}, {
+    "title": "Whatsapp",
+    "audio": "src/assets/audios/whatsapp.mp3"
+}, {
+    "title": "Wow",
+    "audio": "src/assets/audios/wow.mp3"
+}]
+  
